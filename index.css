@@ -1,0 +1,28 @@
+.message-container {
+	text-align: center;
+	margin-top: 25vh;
+	font-size: 3em;
+}
+.chicken-container {
+	position: absolute;
+	top: 50vh;
+    width: 75vw;
+    height: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.chicken {
+	position: absolute;
+	bottom: 0px;
+}
+.chicken-sprite {
+    position: absolute;
+}
+.debug {
+    border: 1px solid green;
+}
+.preload-container {
+    position: absolute;
+    left: -2000px;
+    top: -2000px;
+}
